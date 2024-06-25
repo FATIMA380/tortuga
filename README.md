@@ -1,1 +1,70 @@
-# tortuga
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tortugas</title>
+    <style>
+        body {
+            background-color: #ffc0cb; /* Color rosa pastel para el fondo de la página */
+            font-family: Arial, sans-serif;
+            color: white;
+            padding: 20px;
+        }
+        h1 {
+            color: blue;
+            font-size: 45px;
+            font-style: italic; /* Texto en cursiva para el título */
+            text-decoration: underline; /* Subrayado para el título */
+            text-align: center; /* Centrado para el título */
+            border-style: solid; /* Borde sólido para el título */
+            border-width: 5px; /* Ancho del borde del título */
+            border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* Colores para el borde del título */
+            border-image-slice: 1; /* Slice para que el gradiente se repita en el borde */
+            padding: 10px; /* Espaciado interno del título */
+            display: inline-block; /* Mostrar como bloque en línea para ajustar el borde */
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+        }
+        .image {
+            text-align: center;
+            margin: 20px 0;
+        }
+        h2 {
+            font-style: italic; /* Texto en cursiva para los subtítulos */
+            margin-top: 20px; /* Espaciado superior para los subtítulos */
+            text-align: center; /* Centrado para los subtítulos */
+            background-color: #ff99cc; /* Fondo rosa claro para los subtítulos */
+            padding: 5px; /* Espaciado interno para los subtítulos */
+        }
+        p {
+            color: #e6e6ff; /* Color azul claro para el texto */
+            font-size: 16px;
+            line-height: 1.5; /* Espaciado entre líneas */
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Tortugas</h1>
+        <div class="image">
+            <img src="https://concepto.de/wp-content/uploads/2020/04/tortuga-e1588195737163-800x400.jpg" alt="Imagen de una tortuga" width="200">
+        </div>
+        <h2>Introducción</h2>
+        <p>Las tortugas son reptiles pertenecientes al orden de los testudines (o quelonios). Se caracterizan por tener un caparazón que protege sus órganos vitales. Existen tanto tortugas terrestres como acuáticas, y algunas especies pueden vivir tanto en agua dulce como en el mar.</p>
+        <h2>Especies y Distribución</h2>
+        <p>Las tortugas han existido durante más de 200 millones de años, siendo uno de los grupos de reptiles más antiguos. Su adaptación a diferentes hábitats ha permitido que se encuentren en casi todos los continentes, excepto en la Antártida.</p>
+        <h2>Ciclo de Vida</h2>
+        <p>Existen aproximadamente 356 especies de tortugas, distribuidas en 13 familias. Algunas de las especies más conocidas son la tortuga verde, la tortuga laúd, la tortuga de caja y la tortuga carey.</p>
+        <h2>Dieta y Adaptaciones</h2>
+        <p>Las tortugas tienen un ciclo de vida largo, con algunas especies que pueden vivir más de 100 años. Son animales de sangre fría, lo que significa que dependen del ambiente para regular su temperatura corporal.</p>
+        <h2>Peligro de Extinción</h2>
+        <p>La dieta de las tortugas varía según la especie y su hábitat. Algunas son herbívoras, alimentándose de plantas y algas, mientras que otras son carnívoras o omnívoras, comiendo insectos, pequeños animales y frutas.</p>
+        <h2>Conservación</h2>
+        <p>Desafortunadamente, muchas especies de tortugas están en peligro de extinción debido a la pérdida de hábitat, la caza y el comercio ilegal. La conservación de las tortugas es crucial para mantener el equilibrio de los ecosistemas en los que viven.</p>
+    </div>
+</body>
+</html>
